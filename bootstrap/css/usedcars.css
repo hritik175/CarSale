@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@0;1&display=swap');
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 400 !important;
+}
+
+.back-image{
+    box-shadow: 0px 8px 8px rgba(75, 75, 75, 0.534);
+    position: relative;
+    text-align: center;
+}
+
+.nav-head{
+    font-size: 50px;
+    color: white;
+    font-family: 'Arvo', sans-serif;
+    position: absolute;
+    top: 60%;
+    margin-left: 35%;
+}
+
+
+
+h2 span:before, h2 span:after{
+    margin: 0 10px;
+    width: 25px;
+    height: 8px;
+    content: "";
+    position: relative;
+    display: inline-block;
+    transform: translateY(-110%);
+    background-color: #EA001E;
+    
+}
+
+span{
+    font-family: 'Arvo', sans-serif;
+    font-size: 50px;
+    position: absolute;
+    top: 60%;
+    margin-left: 35%;
+}
+
