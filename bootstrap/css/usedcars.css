@@ -24,7 +24,7 @@ body{
 
 
 h2 span:before, h2 span:after{
-    margin: 0 10px;
+    margin: 0 15px;
     width: 25px;
     height: 8px;
     content: "";
@@ -43,3 +43,69 @@ span{
     margin-left: 35%;
 }
 
+.pull-left{
+    float:left;
+    margin-left: 8%;
+
+}
+.colm220{
+    width:220px;
+}
+
+.widgetBox{
+    border-radius: 4px;
+    box-shadow: #ccc 1px 2px 4px;
+    border: 1px solid #e5e5e5;
+    background: #fff;
+}
+
+.leftbar{
+    padding: 15px 20px;
+}
+
+.results{
+    color: #EA001E;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.filter-tile{
+    color: white;
+    background:#282d32;
+    padding: 8px 20px;
+}
+
+.mklist{
+    margin-top: 15px;
+    list-style: none;
+}
+
+.mklist-child{
+    display: block;
+    color: #282d32;
+    width: 100%;
+    padding: 0;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.inCheck{
+    width: auto;
+    margin-top: 2px;
+    margin-right: 20px;
+    float:right;
+    outline: 0 !important;
+    box-sizing: border-box;
+}
+
+.flex-container-new{
+    display: flex;
+    justify-content: center;
+    margin-top: 15%;
+    flex-wrap: wrap;
+}
+
+.card-text-new{
+    color: rgb(204, 204, 204);
+}
